@@ -1,4 +1,4 @@
-# Javine Tan | Enterprise CSM Portfolio & Technical Architecture Labs
+# Javine Tan (@jatansg) | Strategic CS & Enterprise Accounts Leader Portfolio
 
 Welcome to my technical sandbox environments. I build architectural prototypes to explore cross-border ASEAN regulatory workflows, data governance models, and enterprise cloud orchestration.
 
