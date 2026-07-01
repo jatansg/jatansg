@@ -12,3 +12,6 @@ An enterprise-grade high-performance cloud engine prototype designed to simulate
 
 ### 🛡️ [AIMM Dev](https://aimm.dev) — AI Model Aggregator Platform & Multi-LLM Orchestration Sandbox
 An enterprise AI Model Aggregator prototype built to evaluate multi-LLM routing logic, payload load-balancing metrics, and secure API aggregation token gateway behaviors.
+
+### 🩹 [oRecover](https://orecover.com/) — Enterprise Recovery Logistics & Rehabilitation Data Framework
+A live technical architecture prototype designed to simulate post-operative patient recovery timelines, secure rehabilitation milestone logging, and data-driven client progress workflows.
