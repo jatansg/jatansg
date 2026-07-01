@@ -13,5 +13,7 @@ An enterprise-grade high-performance cloud engine prototype designed to simulate
 ### 🛡️ [AIMM Dev](https://aimm.dev) — AI Model Aggregator Platform & Multi-LLM Orchestration Sandbox
 An enterprise AI Model Aggregator prototype built to evaluate multi-LLM routing logic, payload load-balancing metrics, and secure API aggregation token gateway behaviors.
 
-### 🩹 [oRecover](https://orecover.com/) — Enterprise Recovery Logistics & Rehabilitation Data Framework
-A live technical architecture prototype designed to simulate post-operative patient recovery timelines, secure rehabilitation milestone logging, and data-driven client progress workflows.
+### 🛡️ [ChainRecover](https://orecover.com) — Blockchain Asset Recovery & Forensic Infrastructure Simulation
+A live cybersecurity sandbox simulating cryptographic ledger tracing, post-loss forensic milestone verification, and fully mobile-responsive token data recovery pipelines.
+* **Core Architecture:** Evaluates Web3 verification flows, multi-signature transaction logic, and integrated localized settlement gateways (PayNow, GrabPay) within a secure glassmorphism container.
+
