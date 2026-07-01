@@ -1,16 +1,14 @@
-## Hi there 👋
+# Javine Tan | Enterprise CSM Portfolio & Technical Architecture Labs
 
-<!--
-**jatansg/jatansg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my technical sandbox environments. I build architectural prototypes to explore cross-border ASEAN regulatory workflows, data governance models, and enterprise cloud orchestration.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌐 [m0-0n.com](https://m0-0n.com) — Enterprise Data Governance & ASEAN Compliance Framework
+A live compliance prototype built to simulate role-based access control (RBAC), immutable audit logging, and automated regional compliance mapping under Singapore's PDPA and broader ASEAN medical device regulations.
+
+### ⚡ [LovTurbo Labs](https://lovturbo.com) — High-Performance Cloud Engine Optimization Sandbox
+An enterprise-grade high-performance cloud engine prototype designed to simulate real-time synchronization pipelines, caching distribution networks, and system latency reduction workflows.
+
+### 🛡️ [AIMM Dev](https://aimm.dev) — AI Model Aggregator Platform & Multi-LLM Orchestration Sandbox
+An enterprise AI Model Aggregator prototype built to evaluate multi-LLM routing logic, payload load-balancing metrics, and secure API aggregation token gateway behaviors.
