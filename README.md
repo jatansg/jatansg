@@ -59,6 +59,16 @@ Built as a product architecture sandbox to demonstrate local-market commerce thi
 
 Live demo: https://dylmn.shop/
 
+## 💼 founddao.com — Compensation Intelligence & Salary Estimation Prototype
+
+A compensation intelligence and salary estimation prototype built to explore how professionals can benchmark role value, compensation expectations, seniority positioning, and market-fit signals through a clean self-service experience.
+
+The build simulates a LinkedIn-style salary discovery workflow, combining role-based inputs, market benchmarking concepts, professional positioning, and data-informed career decision support.
+
+Built as a product architecture sandbox to demonstrate HRTech product thinking, career intelligence UX, compensation benchmarking flows, and marketplace-style professional data experiences.
+
+Live demo: https://founddao.com/
+
 ---
 
 ### Repository Visibility Note
