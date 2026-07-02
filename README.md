@@ -7,7 +7,7 @@ I build enterprise-grade prototypes that connect customer success, revenue workf
 **These projects are live product architecture prototypes built to demonstrate how commercial strategy, regulated workflows, user experience, and technical systems can come together in working MVPs and product architecture prototypes.**
 ---
 
-## 🌐 m0-0n.com — Privacy-First B2B2C Optical Commerce & ASEAN Governance Prototype
+## 🌐 m0-0n.com — Privacy-First B2B2C Optical Commerce & ASEAN Governance
 
 A live B2B2C optical commerce MVP combining eyewear e-commerce, family prescription profile management, saved prescription checkout, optometrist-assisted verification, non-diagnostic vision screening, consent controls, audit trails, anonymised distributor demand forecasting, and ASEAN governance tracking across 10 markets.
 
