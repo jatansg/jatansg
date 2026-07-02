@@ -4,7 +4,7 @@ Welcome to my technical product-build portfolio.
 
 I build enterprise-grade prototypes that connect customer success, revenue workflows, compliance governance, data privacy, cloud architecture, and B2B/B2B2C platform design across ASEAN.
 
-**These projects are live product architecture prototypes built to demonstrate how commercial strategy, regulated workflows, user experience, and technical systems can come together in working MVPs.**
+**These projects are live product architecture prototypes built to demonstrate how commercial strategy, regulated workflows, user experience, and technical systems can come together in working product prototypes.**
 ---
 
 ## 🌐 m0-0n.com — Privacy-First B2B2C Optical Commerce & ASEAN Governance Prototype
@@ -39,3 +39,8 @@ Built as a security infrastructure case study to explore trust, auditability, us
 
 Live demo: https://orecover.com
 
+---
+
+### Repository Visibility Note
+
+Some source repositories are kept private where projects involve security workflows, compliance logic, data governance, or commercial product architecture. Live demos and case-study summaries are provided for portfolio review.
