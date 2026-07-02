@@ -29,7 +29,7 @@ An AI model aggregation prototype exploring multi-LLM routing, prompt orchestrat
 
 Built to demonstrate applied AI workflow design and enterprise orchestration patterns.
 
-Live demo: [insert link]
+Live demo: https://aimm.dev/
 
 ## 🔐 ChainRecover — Security Workflow & Digital Asset Recovery Simulation
 
