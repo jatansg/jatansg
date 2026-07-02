@@ -1,19 +1,41 @@
-# Javine Tan (@jatansg) | Strategic CS & Enterprise Accounts Leader Portfolio
+# Javine Tan (@jatansg) | Strategic CS, Enterprise Accounts & Product Architecture Portfolio
 
-Welcome to my technical sandbox environments. I build architectural prototypes to explore cross-border ASEAN regulatory workflows, data governance models, and enterprise cloud orchestration.
+Welcome to my technical product-build portfolio.
 
+I build enterprise-grade prototypes that connect customer success, revenue workflows, compliance governance, data privacy, cloud architecture, and B2B/B2B2C platform design across ASEAN.
+
+These projects are live product architecture prototypes built to demonstrate how commercial strategy, regulated workflows, user experience, and technical systems can come together in working MVPs.
 ---
 
-### 🌐 [m0-0n.com](https://m0-0n.com) — Enterprise Data Governance & ASEAN Compliance Framework
-A live compliance prototype built to simulate role-based access control (RBAC), immutable audit logging, and automated regional compliance mapping under Singapore's PDPA and broader ASEAN medical device regulations.
+## 🌐 m0-0n.com — Privacy-First B2B2C Optical Commerce & ASEAN Governance Prototype
 
-### ⚡ [LovTurbo Labs](https://lovturbo.com) — High-Performance Cloud Engine Optimization Sandbox
-An enterprise-grade high-performance cloud engine prototype designed to simulate real-time synchronization pipelines, caching distribution networks, and system latency reduction workflows.
+A live B2B2C optical commerce MVP combining eyewear e-commerce, family prescription profile management, saved prescription checkout, optometrist-assisted verification, non-diagnostic vision screening, consent controls, audit trails, anonymised distributor demand forecasting, and ASEAN governance tracking across 10 markets.
 
-### 🛡️ [AIMM Dev](https://aimm.dev) — AI Model Aggregator Platform & Multi-LLM Orchestration Sandbox
-An enterprise AI Model Aggregator prototype built to evaluate multi-LLM routing logic, payload load-balancing metrics, and secure API aggregation token gateway behaviors.
+Built to explore how optical retail can evolve into a trusted, data-conscious, and compliance-ready digital ecosystem.
 
-### 🛡️ [ChainRecover](https://orecover.com) — Blockchain Asset Recovery & Forensic Infrastructure Simulation
-A live cybersecurity sandbox simulating cryptographic ledger tracing, post-loss forensic milestone verification, and fully mobile-responsive token data recovery pipelines.
-* **Core Architecture:** Evaluates Web3 verification flows, multi-signature transaction logic, and integrated localized settlement gateways (PayNow, GrabPay) within a secure glassmorphism container.
+Live demo: https://m0-0n.com
+
+## ⚡ LovTurbo Labs — High-Performance Cloud Architecture & Pipeline Optimisation Prototype
+
+An enterprise-grade cloud architecture prototype exploring real-time synchronisation pipelines, caching distribution networks, latency reduction workflows, and operational performance visibility.
+
+Built to demonstrate how infrastructure thinking, performance optimisation, and product UX can be translated into a working technical sandbox.
+
+Live demo: https://lovturbo.com
+
+## 🛡️ AIMM Dev — AI Model Aggregator & Multi-LLM Orchestration Sandbox
+
+An AI model aggregation prototype exploring multi-LLM routing, prompt orchestration, payload handling, token usage visibility, fallback logic, and secure API gateway behaviours.
+
+Built to demonstrate applied AI workflow design and enterprise orchestration patterns.
+
+Live demo: [insert link]
+
+## 🔐 ChainRecover — Security Workflow & Digital Asset Recovery Simulation
+
+A cybersecurity workflow prototype simulating digital asset recovery journeys, verification milestones, case intake, evidence tracking, and mobile-responsive recovery-status flows.
+
+Built as a security infrastructure case study to explore trust, auditability, user guidance, and structured incident-response UX.
+
+Live demo: https://orecover.com
 
