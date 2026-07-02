@@ -39,6 +39,16 @@ Built as a security infrastructure case study to explore trust, auditability, us
 
 Live demo: https://orecover.com
 
+## 🍜 SGFoodCourt — Singapore Coffee Shop Multi-Vendor Management Prototype
+
+A Singapore-focused foodcourt and coffee shop operations prototype built to simulate multi-vendor stall management, customer ordering journeys, menu visibility, and merchant-side workflow coordination.
+
+The build explores how traditional neighbourhood F&B environments can be translated into a digital operating layer, supporting stall discovery, product/menu browsing, vendor participation, order flow visibility, and basic management logic.
+
+Built as a product architecture sandbox to demonstrate local-market UX thinking, multi-tenant platform design, and operational workflow mapping for Singapore’s foodcourt and coffee shop ecosystem.
+
+Live demo: https://magical-unicorn-880610.netlify.app/
+
 ---
 
 ### Repository Visibility Note
