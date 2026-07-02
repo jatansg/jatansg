@@ -47,7 +47,17 @@ The build explores how traditional neighbourhood F&B environments can be transla
 
 Built as a product architecture sandbox to demonstrate local-market UX thinking, multi-tenant platform design, and operational workflow mapping for Singapore’s foodcourt and coffee shop ecosystem.
 
-Live demo: https://magical-unicorn-880610.netlify.app/
+Live demo: https://blingfen.com/
+
+## 📱 dylmn.shop — Singapore Lucky Mobile Numbers Storefront Prototype
+
+A Singapore-focused digital storefront prototype for lucky, memorable, and premium-style mobile numbers.
+
+The build explores niche e-commerce flows around number discovery, product listing, customer enquiry, and culturally relevant buying behaviour linked to auspicious or easy-to-remember mobile numbers.
+
+Built as a product architecture sandbox to demonstrate local-market commerce thinking, lightweight marketplace design, product listing UX, and conversion-focused customer journey mapping.
+
+Live demo: https://dylmn.shop/
 
 ---
 
