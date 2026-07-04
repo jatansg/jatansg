@@ -69,6 +69,16 @@ Built as a product architecture sandbox to demonstrate HRTech product thinking, 
 
 Live demo: https://founddao.com/
 
+## 🏃‍♀️ Run0n — AI-Powered Running Performance Commerce & Distributor Intelligence Prototype
+
+A mobile-first B2B2C running performance commerce prototype combining treadmill bio-burn calibration, multi-profile household tracking, nutrition and recovery insights, simulated voice authentication, simulated eKYC, consent controls, partner-safe analytics, product recommendations, and distributor demand forecasting.
+
+The build explores how consumer training behaviour can become consent-approved aggregate demand intelligence for gyms, wellness retailers, wholesalers, and ASEAN distributors, while keeping identity, privacy, and profile-level consent central to the experience.
+
+Built as a product architecture sandbox to demonstrate AI-native workflow design, privacy-aware B2B2C commerce thinking, subscription packaging, and regional distributor planning logic.
+
+Live demo: https://run0n.com/
+
 ---
 
 ### Repository Visibility Note
