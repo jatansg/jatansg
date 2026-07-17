@@ -99,6 +99,44 @@ Located in the `/k8s` directory, the manifest defines an immutable pod specifica
   * Explicitly drops system runtime execution elevations (`allowPrivilegeEscalation: false`).
 
 ---
+## 🗺️ System Network Architecture Description
+
+This section details the micro-segmentation, traffic flow topology, and perimeter security layers implemented across the production environment footprint.
+
+                      [ INTERNET ]
+                           │  
+                           ▼ (Port 443 | HTTPS)
+               ┌───────────────────────┐
+               │  AWS Security Group   │ (Denies non-443/ingress traffic)
+               └───────────┬───────────┘
+                           │
+                           ▼ (Forwarded to Cluster Boundary)
+               ┌───────────────────────┐
+               │    Public Subnet      │ (10.0.1.0/24 inside AWS VPC)
+               │ ┌───────────────────┐ │
+               │ │ Kubernetes Pod    │ │ (Privilege-escalation disabled)
+               │ │ ┌───────────────┐ │ │
+               │ │ │ Nginx Core    │ │ │ (Runs as Non-Root UID 10001)
+               │ │ └───────────────┘ │ │
+               │ └───────────────────┘ │
+               └───────────────────────┘
+               
+### 1. Perimeter Defensive Layer & Ingress Boundary
+Traffic ingress follows a strict, zero-trust perimeter model:
+* **Protocol Restraints**: The stateless external network boundary terminates all incoming consumer connections directly at the AWS Security Group interface, dropping any traffic not explicitly mapped to TCP Port 443 (HTTPS).
+* **Distributed DoS Mitigation**: By dropping raw arbitrary handshakes, the firewall layer insulates internal container engines from high-volume Layer 4 connection floods.
+
+### 2. Network Topology & VPC Segmentation
+Workloads execute within a micro-segmented network fabric topology:
+* **Address Spacing**: Infrastructure workloads reside in a software-defined Virtual Private Cloud (VPC) spanning a `/16` CIDR block (`10.0.0.0/16`), creating 65,536 private IP addresses to eliminate multi-tenant network bleeding.
+* **Zonal Subnetting**: Virtual network routing paths isolate edge computing layers inside a public subnet wrapper (`10.0.1.0/24`), ensuring deterministic routing tables and strict segregation from internal database or storage grids.
+
+### 3. Intra-Pod Runtime Security & Workload Containment
+Once a payload traverses the edge routing tier, secure compute boundaries protect execution frames inside the Kubernetes pod:
+* **Filesystem Inmutability**: The target web application container leverages an ephemeral Linux kernel configuration where the root system partition is mounted as read-only (`readOnlyRootFilesystem: true`). Malicious payloads cannot execute automated file writes or runtime configuration injections to persist within the environment.
+* **UID Context Isolation**: The execution daemon explicitly drops the default `root` administrative namespace context, running under an unprivileged user identity space (`runAsUser: 10001`). Even in a theoretical container breakout event, the underlying host kernel remains safe from privilege escalation attacks.
+  
+---
 ### Repository Visibility Note
 
 Some source repositories are kept private where projects involve security workflows, compliance logic, data governance, or commercial product architecture. Live demos and case-study summaries are provided for portfolio review.
