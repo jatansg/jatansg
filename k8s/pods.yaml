@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jatansg-application-pod
+  namespace: default
+  labels:
+    app: secure-core
+    tier: backend
+spec:
+  containers:
+  - name: web-app-container
+    image: nginx:stable-alpine
+    ports:
+    - containerPort: 80
+    resources:
+      limits:
+        memory: "512Mi"
+        cpu: "500m"
+      requests:
+        memory: "256Mi"
+        cpu: "250m"
+    securityContext:
+      allowPrivilegeEscalation: false
+      readOnlyRootFilesystem: true
+      runAsNonRoot: true
+      runAsUser: 10001
