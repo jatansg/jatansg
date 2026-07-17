@@ -80,7 +80,25 @@ Built as a product architecture sandbox to demonstrate AI-native workflow design
 Live demo: https://run0n.com/
 
 ---
+## 🏗️ Cloud Infrastructure & Orchestration Overview
 
+This repository includes a production-ready, sanitized cloud architecture blueprint designed with a security-first approach to infrastructure management. By separating environment definitions and utilizing immutable infrastructure practices, the setup eliminates common compliance and security configuration risks.
+
+### 🛡️ Infrastructure as Code (IaC) with Terraform
+Located in the `/terraform` directory, the configuration builds an isolated network footprint on AWS using industry-standard security principles:
+* **Network Isolation**: provisions a dedicated Amazon VPC (`10.0.0.0/16`) to decouple core application workloads from default networks.
+* **Tiered Subnets**: maps out structured public subnets (`10.0.1.0/24`) inside strict availability zones to enforce clean routing boundaries.
+* **Minimalist Security Posture**: enforces a strict AWS Security Group that blocks non-essential protocol access, allowing entry *only* via encrypted HTTPS (Port 443) while dropping high-risk open-port configurations.
+
+### ☸️ Container Orchestration with Kubernetes
+Located in the `/k8s` directory, the manifest defines an immutable pod specification designed to maintain highly resilient runtime application instances:
+* **Resource Governance**: sets explicit CPU/Memory request and limit metrics (`256Mi/250m` minimums up to `512Mi/500m` maximums) to prevent container resource exhaustion and stabilize cluster node footprints.
+* **Strict Runtime Security**: locks down container privilege boundaries natively within the Kubernetes engine:
+  * Disables root privileges (`runAsNonRoot: true` with a designated non-uid-0 user account).
+  * Mounting structures run on a static, immutable filesystem layer (`readOnlyRootFilesystem: true`).
+  * Explicitly drops system runtime execution elevations (`allowPrivilegeEscalation: false`).
+
+---
 ### Repository Visibility Note
 
 Some source repositories are kept private where projects involve security workflows, compliance logic, data governance, or commercial product architecture. Live demos and case-study summaries are provided for portfolio review.
