@@ -43,11 +43,8 @@ Live demo: https://lovturbo.com
 
 This section outlines the high-performance data engineering and content distribution blueprint engineered to eliminate synchronization bottlenecks and reduce end-to-end user latency.
 
-   [ Client Edge Device ] ───► [ CDN Edge Node ] ───► [ Intelligent Caching Layer ]
-                                                            │
-   ┌────────────────────────────────────────────────────────┘
-   ▼
-[ Real-Time Ingestion Engine ] ───► [ Stream Processing Pipeline ] ───► [ Datastore Cluster ]
+### 🔀 Data Flow Pipeline
+`Client Edge Device` ──► `Anycast CDN Node` ──► `Intelligent Cache Layer` ──► `Stream Ingestion Engine` ──► `Datastore Cluster`
 
 ### 🔄 Data Synchronization Mechanics
 * **Event-Driven Ingestion**: Employs a non-blocking asynchronous event loop structure to process incoming payloads without queue blocking, maintaining operational consistency under high-concurrency loads.
