@@ -118,12 +118,8 @@ Live demo: https://run0n.com/
 
 This section details the telemetry aggregation frameworks and architectural boundaries engineered to transform real-time consumer training habits into scalable B2B distributor planning metrics.
 
-[ Consumer Training Telemetry ] ───► [ Real-Time Calibration Engine ]
-                                                   │
-   ┌───────────────────────────────────────────────┘
-   ▼
-[ Anonymization & Aggregation Tier ] ───► [ Distributor Demand Intelligence Core ]
-
+### 🔀 Telemetry Flow Pipeline
+`Biometric Edge` ──► `Calibration Engine` ──► `Aggregation Tier` ──► `Demand Intelligence Core`
 
 ### 📊 Telemetry Aggregation Framework
 * **De-Identified Data Pipeline**: Strips out sensitive user biomarkers and localized biometric strings directly at the edge layer, transmitting only normalized, structural fitness data packets to the cloud processing core.
