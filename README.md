@@ -15,6 +15,22 @@ Built to explore how optical retail can evolve into a trusted, data-conscious, a
 
 Live demo: https://m0-0n.com
 
+## 🛡️ m0-0n.com — Regional Compliance & Data Residency Architecture
+
+This architectural blueprint outlines the data segregation and compliance boundaries enforced to safely isolate protected health information (PHI) and personal records across regional ASEAN territories.
+
+| Operational Domain | Architecture & Security Treatment | Compliance Objective Enforced |
+| :--- | :--- | :--- |
+| **Personal Identity Data** *(PII)* | Isolated within encrypted, region-specific cloud datastores. Encryption keys remain segregated from global analytics tiers. | Enforces strict **Singapore PDPA** and cross-border geographic sovereignty rules. |
+| **Prescription Records** *(PHI)* | Hashed at rest using military-grade AES-256 protocols with individual cryptographic seed salts. | Guarantees robust protection over sensitive healthcare records. |
+| **Regional Analytics Loop** | Aggregated, stripped of unique identifiers, and converted into statistical demand metrics before border transit. | Prevents unauthorized international transmission of identifiable data. |
+| **Consent & Audit Logging** | Tamper-proof, append-only ledger entries record every consent activation and doctor-verification step. | Provides complete, audit-ready forensic visibility for regulatory inquiries. |
+
+### 🔐 Cryptographic Isolation & Tokenization Model
+To ensure complete boundary separation, the platform decouples business transactions from sensitive user identities:
+* **Pseudonymized Data Vaults**: User identities are automatically replaced with randomized UUID tracking keys at the database ingestion tier.
+* **Asymmetric Security Management**: Cryptographic operations occur strictly within automated Hardware Security Modules (HSMs), preventing internal administrative teams or infrastructure observers from viewing raw unencrypted records.
+
 ## ⚡ LovTurbo Labs — High-Performance Cloud Architecture & Pipeline Optimisation Prototype
 
 An enterprise-grade cloud architecture prototype exploring real-time synchronisation pipelines, caching distribution networks, latency reduction workflows, and operational performance visibility.
@@ -22,6 +38,28 @@ An enterprise-grade cloud architecture prototype exploring real-time synchronisa
 Built to demonstrate how infrastructure thinking, performance optimisation, and product UX can be translated into a working technical sandbox.
 
 Live demo: https://lovturbo.com
+
+## ⚡ lovturbo.com — System Architecture & Latency Optimization Pipeline
+
+This section outlines the high-performance data engineering and content distribution blueprint engineered to eliminate synchronization bottlenecks and reduce end-to-end user latency.
+
+   [ Client Edge Device ] ───► [ CDN Edge Node ] ───► [ Intelligent Caching Layer ]
+                                                            │
+   ┌────────────────────────────────────────────────────────┘
+   ▼
+[ Real-Time Ingestion Engine ] ───► [ Stream Processing Pipeline ] ───► [ Datastore Cluster ]
+
+### 🔄 Data Synchronization Mechanics
+* **Event-Driven Ingestion**: Employs a non-blocking asynchronous event loop structure to process incoming payloads without queue blocking, maintaining operational consistency under high-concurrency loads.
+* **Optimized Payload Serialization**: Utilizes compact binary formatting models over standard text serialization to reduce transport packet volumes and accelerate wire-speed network transmission.
+
+### 🌐 Distributed Edge Network & Caching Strategy
+* **Geographic Proximity Routing**: Leverages an Anycast-routed Content Delivery Network (CDN) framework to terminate TCP connections at local regional edge nodes, stripping out propagation delays across ASEAN markets.
+* **Multi-Tiered Cache Invalidation**: Employs an aggressive edge-caching model with deterministic, event-based cache purging to serve high-volume static components instantaneously while preserving database resources.
+
+### 📉 Latency Reduction Workflows
+* **Micro-Batch Stream Pipeline**: Ingested telemetry strings run through structured micro-batch processing workers before database commit steps, flattening expensive IO storage bottlenecks.
+* **Connection Multiplexing Layer**: Stabilizes communication channels between internal network dependencies by reusing persistent, long-lived sockets, removing the recurrent latency penalties of cryptographic connection handshakes.
 
 ## 🛡️ AIMM Dev — AI Model Aggregator & Multi-LLM Orchestration Sandbox
 
