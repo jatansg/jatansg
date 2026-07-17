@@ -114,6 +114,25 @@ Built as a product architecture sandbox to demonstrate AI-native workflow design
 
 Live demo: https://run0n.com/
 
+## 🏃‍♀️ run0n.com — Product-Led Growth (PLG) & Wholesale Intelligence Workflow
+
+This section details the telemetry aggregation frameworks and architectural boundaries engineered to transform real-time consumer training habits into scalable B2B distributor planning metrics.
+
+[ Consumer Training Telemetry ] ───► [ Real-Time Calibration Engine ]
+                                                   │
+   ┌───────────────────────────────────────────────┘
+   ▼
+[ Anonymization & Aggregation Tier ] ───► [ Distributor Demand Intelligence Core ]
+
+
+### 📊 Telemetry Aggregation Framework
+* **De-Identified Data Pipeline**: Strips out sensitive user biomarkers and localized biometric strings directly at the edge layer, transmitting only normalized, structural fitness data packets to the cloud processing core.
+* **Deterministic Calibration Analysis**: Feeds multi-profile activity data logs through a localized aggregation index to isolate true demand habits from transient user anomalies.
+
+### 💼 B2B Monetization & Distributor Intelligence Loop
+* **Predictive Wholesale Planning**: Compiles anonymous user engagement habits into unified market signals, allowing wholesale networks to anticipate inventory cycles without revealing identity parameters.
+* **Consent-Driven Value Mapping**: Restricts corporate access boundaries to aggregate operational performance indexes, ensuring raw consumer identities remain secure behind localized authorization walls.
+
 ---
 ## 🏗️ Cloud Infrastructure & Orchestration Overview
 
