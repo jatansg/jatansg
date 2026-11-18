@@ -4,6 +4,8 @@ Welcome to my technical product-build portfolio.
 
 I build enterprise-grade prototypes that connect customer success, revenue workflows, compliance governance, data privacy, cloud architecture, and B2B/B2B2C platform design across ASEAN. I build and deploy product prototypes for complex B2B and B2B2C workflows. I own the process from product and workflow design through rapid prototyping with Lovable, deployment management in Netlify, and custom-domain DNS configuration. I share architecture walkthroughs and demos publicly and keep most source repositories private to protect my work.
 
+I also launched multiple projects for upvoting via https://peerlist.io/javine3101
+
 **These projects are live product architecture prototypes built to demonstrate how commercial strategy, regulated workflows, user experience, and technical systems can come together in working MVPs and product architecture prototypes.**
 ---
 
